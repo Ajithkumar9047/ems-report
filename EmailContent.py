@@ -5,10 +5,9 @@ from email.mime.multipart import MIMEMultipart
 from email.mime.application import MIMEApplication
 import smtplib
 from datetime import datetime, timedelta
-from dotenv import load_dotenv
 import os
-
-# Load environment variables from .env file
+from Config import *
+from dotenv import load_dotenv
 load_dotenv()
 current_date1 = datetime.now().strftime('%d/%m/%Y')
 yesterday_date1 = (datetime.now() - timedelta(days=1)).strftime('%d/%m/%Y')
