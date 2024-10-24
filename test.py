@@ -1,7 +1,7 @@
 import subprocess
 from Config import *
 # Replace 'your_executable.exe' with the path to your executable file
-executable_path = "C:/TVShosurRespush/LeadPush/LeadPush/bin/Debug/LeadPush.exe"
+executable_path = "D:/text document/LeadPush/LeadPush/bin/Debug/LeadPush.exe"
 
 def run():
     try:
